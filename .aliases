@@ -1,0 +1,6 @@
+# Shortcuts
+alias ll="ls -la"
+alias l="ll"
+
+# testing
+alias minitest="ruby -Ilib:test:spec"

@@ -1,0 +1,47 @@
+Host apps
+    HostName 178.62.73.34
+    User deploy
+
+Host sentry
+    Hostname 178.62.118.131
+    User deploy
+
+Host sonic-web01
+    Hostname 104.131.48.111
+    User deploy
+
+Host niice-worker01
+    Hostname 104.236.49.124
+    User deploy
+
+Host niice-live01
+    Hostname 45.55.176.236
+    User deploy
+
+Host niice-staging02
+    Hostname 104.236.200.164
+    User deploy
+
+Host niice-db01
+    Hostname 104.236.46.12
+    User deploy
+
+Host niice-db02
+    Hostname 178.62.105.154
+    User deploy
+
+Host niice-uploads01
+    Hostname 104.236.228.88
+    User deploy
+
+# Host github.com
+#     IdentityFile ~/.ssh/github.key
+
+# Host tunnel
+#     HostName database.example.com
+#     IdentityFile ~/.ssh/coolio.example.key
+#     LocalForward 9906 127.0.0.1:3306
+#     User coolio
+
+
+# More options: http://linux.die.net/man/5/ssh_config
