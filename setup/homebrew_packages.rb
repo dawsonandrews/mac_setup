@@ -1,4 +1,5 @@
 tap "homebrew/services"
+tap "caskroom/cask"
 
 # Unix
 brew "git"
@@ -6,7 +7,7 @@ brew "openssl"
 brew "the_silver_searcher"
 brew "tmux"
 brew "vim"
-brew "ngrok"
+brew "cask ngrok"
 brew "siege"
 
 # Heroku
