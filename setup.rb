@@ -29,12 +29,12 @@ chdir HOME_DIR do
   puts "\n== Symlinking dotfiles =="
   %w(.bashrc .bash_profile .gitconfig .gemrc .tmux.conf).each do |file|
     old = File.expand_path("~/.dotfiles/#{file}")
-    ln_s(old, File.expand_path("~/#{file}"))
+    ln_s(old, File.expand_path("~/#{file}")) unless File.exist?(old)
   end
 
   puts "\n== Symlinking ssh config =="
   old = File.expand_path("~/.dotfiles/ssh_config")
-  ln_s(old, File.expand_path("~/.ssh/config"))
+  ln_s(old, File.expand_path("~/.ssh/config")) unless File.exist?(old)
 end
 
 puts "\n== Setting OSX defaults =="
