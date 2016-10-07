@@ -20,7 +20,9 @@ puts "\n== Installing homebrew packages =="
 system! "brew bundle --file=#{File.join(DOTFILES_DIR, 'setup', 'homebrew_packages.rb')}"
 
 puts "\n== Installing Ruby =="
-system! 'rbenv install 2.3.1'
+unless system("rbenv versions | grep 2.3.1")
+  system! 'rbenv install 2.3.1'
+end
 system! 'rbenv global 2.3.1'
 system! 'gem install bundler'
 system! 'gem install rails'
