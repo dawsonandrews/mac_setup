@@ -11,7 +11,7 @@ def system!(*args)
 end
 
 puts "\n== Installing apple command line tools =="
-system! 'xcode-select --install'
+system 'xcode-select --install'
 
 puts "\n== Installing homebrew package manager =="
 system! '/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"'
