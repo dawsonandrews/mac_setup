@@ -7,7 +7,7 @@ brew "openssl"
 brew "the_silver_searcher"
 brew "tmux"
 brew "vim"
-brew "cask ngrok"
+cask "ngrok"
 brew "siege"
 
 # Heroku
