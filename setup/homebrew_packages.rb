@@ -1,5 +1,6 @@
 tap "homebrew/services"
 tap "caskroom/cask"
+tap "josegonzalez/php"
 
 # Unix
 brew "git"
@@ -34,5 +35,5 @@ brew "php56-pdo-pgsql"
 # Databases
 brew "postgres", restart_service: true
 brew "redis", restart_service: true
-brew "rabbitmq", restart_service: true
 brew "beanstalkd", restart_service: true
+brew "memcached", restart_service: true
