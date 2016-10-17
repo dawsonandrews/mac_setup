@@ -14,6 +14,7 @@ chmod +x ~/.dotfiles/setup.rb
 ```sh
 git config --global user.name "Your Name"
 git config --global user.email "your_email@example.com"
+git update-index --assume-unchanged ~/.dotfiles/.gitconfig
 ```
 
 And install [Postgres App](http://postgresapp.com/)

@@ -31,6 +31,7 @@ brew "ruby-build"
 brew "php56"
 brew "php56-mcrypt"
 brew "php56-pdo-pgsql"
+brew "yarn"
 
 # Databases
 brew "postgres", restart_service: true
