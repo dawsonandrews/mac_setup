@@ -7,6 +7,7 @@ brew "git"
 brew "openssl"
 brew "the_silver_searcher"
 brew "tmux"
+brew "reattach-to-user-namespace" # For tmux to get notifications to work properly
 brew "vim"
 cask "ngrok"
 brew "siege"
@@ -14,11 +15,17 @@ brew "siege"
 # Heroku
 brew "heroku-toolbelt"
 
+# AWS
+brew "awsebcli"
+
 # GitHub
 brew "hub"
 
 # Image manipulation
 brew "imagemagick"
+
+# Notifications
+brew "terminal-notifier"
 
 # Testing
 brew "qt"

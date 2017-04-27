@@ -1,6 +1,10 @@
 export PATH="$HOME/bin:$PATH"
 export PATH="/usr/local/lib/node_modules:/usr/local/share/npm/bin:$PATH"
 
+# node version manager
+# export NVM_DIR="$HOME/.nvm"
+# . "/usr/local/opt/nvm/nvm.sh"
+
 # Android SDK tools
 export PATH="$HOME/Library/Android/sdk/platform-tools:$HOME/Library/Android/sdk/tools:$PATH"
 
@@ -8,7 +12,7 @@ export PATH="$HOME/Library/Android/sdk/platform-tools:$HOME/Library/Android/sdk/
 export PATH="/usr/local/heroku/bin:$PATH"
 
 # Postgres App utils
-export PATH="/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH"
+export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
 
 # Yarn
-export PATH="$PATH:$HOME/.yarn/bin"
+export PATH="$PATH:`yarn global bin`"
