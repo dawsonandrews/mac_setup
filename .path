@@ -16,3 +16,16 @@ export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH"
 
 # Yarn
 export PATH="$PATH:`yarn global bin`"
+
+# Python 2
+export PATH="$PATH:$HOME/Library/Python/3.6/bin"
+
+# Crystal
+export PKG_CONFIG_PATH=/usr/local/opt/openssl/lib/pkgconfig
+
+# Java Home
+export JAVA_HOME=$(/usr/libexec/java_home)
+export DYNAMO_HOME=/Users/pete/ATG/ATG11.2/home
+export ATGJRE=/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home
+export JBOSS_HOME=/Users/pete/EAP-6.4.0
+export JBOSS_VERSION=6.4.0
